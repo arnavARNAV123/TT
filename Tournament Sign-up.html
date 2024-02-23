@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: blue;
+        }
+
+        li {
+            float: left;
+            font-family: Georgia;
+            font-size: 18px;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px 15px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #121073;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+        input[type=text],[type=password],[type=email]{
+            width: 200px;
+        }
+        form{
+            background-image: conic-gradient(yellow, red, blue);
+        }
+        #form{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Learn Table Tennis the Easy Way!</h1>
+    </header>
+    <ul>
+        <li>
+            <a href="tt.html">Home</a>
+        </li>
+        <li>
+            <a href="rules.html">Game Rules</a>
+        </li>
+        <li>
+            <a href="facts.html">Fun Facts</a>
+        </li>
+        <li>
+            <a href="https://scratch.mit.edu/projects/247633020/">Video Game</a>
+        </li>
+        <li>
+            <a href="#">Community Forum</a>
+        </li>
+        <li>
+            <a id="form" href="Tournament Sign-up.html">Tournament Sign-up</a>
+        </li>
+        <li>
+            <a id="about" href="about the founders.html">About</a>
+        </li>
+    </ul>
+    <hr>
+    <center>
+        <form target="_blank" style="margin: 40px 0px; border: 3px groove red;border-radius: 30px; width: 250px; padding:30px; ">
+        <input type="text" placeholder="First name"><br><br>
+        <input type="text" placeholder="Middle name"><br><br>
+        <input type="text" placeholder="Last name"><br><br>
+        <input type="email" placeholder="Gmail"><br><br>
+        <input type="password" placeholder="Password"><br><br>
+        Gender: <br>
+        <input type="radio" name="Gender" value="Male" style="">Male <br>
+        <input type="radio" name="Gender" value="Female">Female <br>
+        <button>Submit!</button>
+    </form>
+</center>
+</body>
+</html>

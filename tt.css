@@ -1,0 +1,32 @@
+.container{
+    display:flex;
+    justify-content:space-around;
+  }
+  ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:blue;
+  }
+  li{
+    float:left;
+    font-family:Georgia;
+    font-size:18px;
+  }
+  li a{
+    display:block;
+    color:white;
+    text-align:center;
+    padding:15px 15px;
+    text-decoration:none;
+  }
+  li a:hover{
+    background-color:#121073
+  }
+  body{
+    background-color:rgba(255, 0, 0, 0.6);
+  }
+  #home{
+    text-decoration:underline;
+  }
